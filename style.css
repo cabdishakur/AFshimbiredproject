@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:white;
+}
+
+.left{
+    margin-right: 73%;
+}
+html{
+    width: 100%;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    color:#777;
+    font-weight: 800;
+    
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    color: lightblue;
+    
+}
+.nav a:hover{
+    background-color: rgb(255, 100, 100, 0.1);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom:1px solid rgba(255, 255, 255, .1);
+}
+
+.main-header{
+    background-color: rgba(0,4,0, .43);
+    background-image:url("images/bg.jpg");
+   background-size: contain,cover;
+    background-blend-mode: color-burn;
+    padding: 30px;
+
+}
+
+.name{
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+    font-size: 2em;
+    font-weight: normal;
+
+    font-family: "Old English Text MT";
+      
+}
+.name-large{
+    font-size: 4em;
+}
+
+.content-section{
+    margin: 0.1em;
+    padding: 1em;
+
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    font-family: fantasy;
+
+}
+.ayo p{
+    float:right;
+}
+table tr td, .left{
+    color:blue;
+}
+
+.sidebar{
+
+    float: left;
+    border-right: 1px black solid;
+    border-right-style: dashed;
+    margin-right: 80%;
+    padding-left: 9px;
+    margin-top: 0%;
+    text-align: center;
+
+}
+.p{
+    font-family: "Old English Text MT";
+    font-size: 3em;
+    font-weight: normal;
+    color: darkolivegreen;
+   
+}
+.i{
+    font-family: "Old English Text MT";
+    font-size: 3em;
+    color: darkolivegreen;
+    padding-top: 0%;
+
+}
+.part2{
+    font-family: "Cooper Black";
+    font-size: 2em;
+    color: rgba(14, 3, 73, 0.6);
+    
+}
+.part3{
+    font-family: "Rockwell";
+    
+    font-size: 3    em;
+    color: rgba(8, 7, 6, 0.6);
+
+}
+.paragaraph{
+    font-family: "Consolas";
+    font-weight: 100;
+    font-size: 200%;
+    
+}
+.btn {
+
+    background-color:rgba(19, 197, 19, 0.43);
+    text-decoration-color: black;
+    margin-left: 43%;
+    
+}
+.bgimage{
+          
+    
+   background-size: cover;
+   background-image:url("images/bg.jpg");
+    background-blend-mode: multiply;
+    padding: 30px;
+
+}
+#T {
+
+    color: red;
+    
+
+}
+#g{
+    color:blue;
+}
+#k{
+         color: darkred;
+}
+#j{
+    color: chocolate;
+}
+.notice{
+
+    color:rgba(14, 7, 51, 0.6);
+    font-family: "Times New Roman";
+    font-size: 1em;
+}
